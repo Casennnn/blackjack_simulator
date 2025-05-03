@@ -59,7 +59,7 @@ maxwinrate = 0
 
 for _ in tqdm(range(accuracy)):
     
-    for numofHands in tqdm(range(7,50)):
+    for numofHands in tqdm(range(7,51)):
         for i in range(numofGambler):
         #--------one round begin-----------
             startingbalance = 10000
