@@ -20,6 +20,13 @@ The `play.py` script is a blackjack simulator that allows users to either play b
 
 Basic blackjack moves are recommended based on online materials.
 
+### Usage
+
+To start the simulator, run:
+```bash
+python play.py
+```
+
 ## doubledown.py
 
 ### Overview
@@ -43,6 +50,13 @@ The `doubledown.py` script performs a Monte Carlo simulation of the double down 
 - **Graph Output**: Users can choose to output a graph comparing win rate versus Sharpe ratio at the end.
 - **All-in Assumption**: Gamblers are assumed to go all-in if they lack sufficient funds for a unit bet.
 
+### Usage
+
+To start the simulator, run:
+```bash
+python doubledown.py
+```
+
 ## oscargrind.py
 
 ### Overview
@@ -54,8 +68,15 @@ The `oscargrind.py` script performs a Monte Carlo simulation of a variation of t
 - **Parameter Input**: Users can input different parameters when prompted, assuming correct ranges as instructed.
 - **Average Return**: The program outputs the average return of all gamblers and the win rate.
 - **Win Rate**: Defined as the chance of leaving the table with a profit, similar to the other scripts.
-- **Graph Output**: Users can choose to output a graph representing the profit and loss (PnL) of specific gamblers across the number of hands played. The y-axis shows the PnL, while the x-axis shows the number of hands played.
+- **Graph Output**: Users can choose to output a graph representing the profit and loss (PnL) of all gamblers across the number of hands played. The y-axis shows the PnL, while the x-axis shows the number of hands played and each single line representing one single gambler.
 
 ### Important Notes
 
 - **Win Rate**: As with the other scripts, a win rate greater than 50% does not guarantee a positive expected value (EV) or average return.
+
+### Usage
+
+To start the simulator, run:
+```bash
+python oscargrind.py
+```
