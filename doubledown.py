@@ -23,7 +23,7 @@ dealingSpeed = 0
 
 numOfDeck = int(input("Please enter the number of deck used in simulation:\n"))
 # accuracy = int(input("Please enter the level of accuracy used in simulation:(1 to 20, where 50 will take some time with higher accuracy)\n"))
-numofGambler = int(input("Please enter the number of gamblers used in simulation:(100 to 5000, where 5000 will take some time with higher accuracy)\n"))
+numofGambler = int(input("Please enter the number of gamblers used in simulation:(100 to 2000, where 2000 will take some time with higher accuracy)\n"))
 graph = int(input("please state whether you want to output the result graph of winrate_vs_sharpe or not. Yes(1)/No(0)\n"))
 goalrate = min(max(float(input("Please enter the initial betting initial as a proportion of the initial balance. Suggestion: 0.0001 - 0.5\n")), 0), 1)
 
